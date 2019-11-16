@@ -1,12 +1,19 @@
 # Assignment-1
 
+Code Output:
+print(score)
+O/P: [0.037919697031329636, 0.9912]
+
+
+Definitions:
+
 Convolution: It is like moving along or across complete input object or screen in order to look at each and every part of input. Like a duster rubbing on board.
 
 
 Filters/Kernels: Also called as feature extractor or 3x3 matrix that extracts out a given feature from a channel/image.
 
 
-Epochs: When we go through our input training data again and again i.e. no. of times our model or algorithm we have generated will traverse the entire dataset.
+Epochs: When we go through our input training data again and again i.e. no. of times our model or algorithm we have generated will traverse the entire dataset. Larger no. of epochs better is the accuracy .
 
 
 1x1 Convolution: is a 1X! matrix that convolves over the image to get different edges of image to recognise it. It usually mixes 2 different channels to create a new channel. hence it links contextually linked features.
