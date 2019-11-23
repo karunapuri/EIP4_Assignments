@@ -88,4 +88,4 @@ Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
 [0.019294623884861358, 0.9939]
 
 3. Strategy taken:
-
+I should have a maxpooling layer where I can compress but I shouldn't have a maxpool layer close to my final output or last layer. Will increase my no. of channels using 1X1 then reduce them that's kind of expected model to build. Will use batch Normalization (to increase scaling and reduce shift) except for my last convolution layer asthat's last layer and we don't want to filter any information in last layer which should see complete object in order to make model predict it correctly. 
