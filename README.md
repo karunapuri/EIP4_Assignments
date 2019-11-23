@@ -1,31 +1,91 @@
-# Assignment-1
+Assignment:2
 
-Code Output:
-print(score)
-O/P: [0.037919697031329636, 0.9912]
+1. Logs for 20 epochs
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/20
 
+Epoch 00001: LearningRateScheduler setting learning rate to 0.003.
+60000/60000 [==============================] - 17s 289us/step - loss: 0.5417 - acc: 0.8477 - val_loss: 0.1168 - val_acc: 0.9755
+Epoch 2/20
 
-Definitions:
+Epoch 00002: LearningRateScheduler setting learning rate to 0.0022744503.
+60000/60000 [==============================] - 9s 150us/step - loss: 0.2573 - acc: 0.9201 - val_loss: 0.0656 - val_acc: 0.9861
+Epoch 3/20
 
-Convolution: It is like moving along or across complete input object or screen in order to look at each and every part of input. Like a duster rubbing on board.
+Epoch 00003: LearningRateScheduler setting learning rate to 0.0018315018.
+60000/60000 [==============================] - 9s 146us/step - loss: 0.2004 - acc: 0.9386 - val_loss: 0.0526 - val_acc: 0.9885
+Epoch 4/20
 
+Epoch 00004: LearningRateScheduler setting learning rate to 0.0015329586.
+60000/60000 [==============================] - 9s 152us/step - loss: 0.1711 - acc: 0.9452 - val_loss: 0.0367 - val_acc: 0.9912
+Epoch 5/20
 
-Filters/Kernels: Also called as feature extractor or 3x3 matrix that extracts out a given feature from a channel/image.
+Epoch 00005: LearningRateScheduler setting learning rate to 0.0013181019.
+60000/60000 [==============================] - 9s 144us/step - loss: 0.1524 - acc: 0.9482 - val_loss: 0.0308 - val_acc: 0.9925
+Epoch 6/20
 
+Epoch 00006: LearningRateScheduler setting learning rate to 0.0011560694.
+60000/60000 [==============================] - 9s 156us/step - loss: 0.1439 - acc: 0.9505 - val_loss: 0.0332 - val_acc: 0.9910
+Epoch 7/20
 
-Epochs: When we go through our input training data again and again i.e. no. of times our model or algorithm we have generated will traverse the entire dataset. Larger no. of epochs better is the accuracy .
+Epoch 00007: LearningRateScheduler setting learning rate to 0.0010295127.
+60000/60000 [==============================] - 9s 148us/step - loss: 0.1317 - acc: 0.9530 - val_loss: 0.0288 - val_acc: 0.9918
+Epoch 8/20
 
+Epoch 00008: LearningRateScheduler setting learning rate to 0.0009279307.
+60000/60000 [==============================] - 9s 151us/step - loss: 0.1246 - acc: 0.9530 - val_loss: 0.0284 - val_acc: 0.9917
+Epoch 9/20
 
-1x1 Convolution: is a 1X! matrix that convolves over the image to get different edges of image to recognise it. It usually mixes 2 different channels to create a new channel. hence it links contextually linked features.
+Epoch 00009: LearningRateScheduler setting learning rate to 0.0008445946.
+60000/60000 [==============================] - 8s 139us/step - loss: 0.1176 - acc: 0.9544 - val_loss: 0.0285 - val_acc: 0.9918
+Epoch 10/20
 
+Epoch 00010: LearningRateScheduler setting learning rate to 0.0007749935.
+60000/60000 [==============================] - 9s 150us/step - loss: 0.1141 - acc: 0.9547 - val_loss: 0.0237 - val_acc: 0.9925
+Epoch 11/20
 
-3x3 Convolution: is a 3x3 matrix that convolves over the image to get different edges of image to recognise it. This is usually preferred kernel as we can make any color out of it, its odd size hence helps to know axis of symmetry. Also it is a superset of all 2X2 matrices. It would always drop 2 pixels of image after convolving 3X3 kernel over image after diff. runs of convolultion.
+Epoch 00011: LearningRateScheduler setting learning rate to 0.0007159905.
+60000/60000 [==============================] - 9s 149us/step - loss: 0.1109 - acc: 0.9558 - val_loss: 0.0216 - val_acc: 0.9938
+Epoch 12/20
 
+Epoch 00012: LearningRateScheduler setting learning rate to 0.000665336.
+60000/60000 [==============================] - 9s 155us/step - loss: 0.1062 - acc: 0.9558 - val_loss: 0.0220 - val_acc: 0.9927
+Epoch 13/20
 
-Feature Maps: Collection of all features being together. Full channel is going to be a feature map.
+Epoch 00013: LearningRateScheduler setting learning rate to 0.0006213753.
+60000/60000 [==============================] - 8s 141us/step - loss: 0.1055 - acc: 0.9559 - val_loss: 0.0223 - val_acc: 0.9930
+Epoch 14/20
 
+Epoch 00014: LearningRateScheduler setting learning rate to 0.0005828638.
+60000/60000 [==============================] - 9s 149us/step - loss: 0.1037 - acc: 0.9554 - val_loss: 0.0221 - val_acc: 0.9936
+Epoch 15/20
 
-Activation Function: They are used to introduce non-linearity to a neural network. If we don't use it then the network could become simple linear model. We need non-linearity in neural n/w because we want it to learn something complex and reoresent all non-linear mappings b/w i/p and o/p.
+Epoch 00015: LearningRateScheduler setting learning rate to 0.0005488474.
+60000/60000 [==============================] - 9s 147us/step - loss: 0.0994 - acc: 0.9575 - val_loss: 0.0220 - val_acc: 0.9930
+Epoch 16/20
 
+Epoch 00016: LearningRateScheduler setting learning rate to 0.0005185825.
+60000/60000 [==============================] - 9s 151us/step - loss: 0.0994 - acc: 0.9565 - val_loss: 0.0200 - val_acc: 0.9935
+Epoch 17/20
 
-Receptive Field: RF of last layer of neural network must be atleast size of the object neural network is looking at. In order to recorgnise any image correctly the last layer of network must have looked at complete object/image.
+Epoch 00017: LearningRateScheduler setting learning rate to 0.000491481.
+60000/60000 [==============================] - 9s 143us/step - loss: 0.0979 - acc: 0.9567 - val_loss: 0.0220 - val_acc: 0.9936
+Epoch 18/20
+
+Epoch 00018: LearningRateScheduler setting learning rate to 0.0004670715.
+60000/60000 [==============================] - 9s 152us/step - loss: 0.0951 - acc: 0.9579 - val_loss: 0.0193 - val_acc: 0.9940
+Epoch 19/20
+
+Epoch 00019: LearningRateScheduler setting learning rate to 0.0004449718.
+60000/60000 [==============================] - 9s 148us/step - loss: 0.0955 - acc: 0.9573 - val_loss: 0.0191 - val_acc: 0.9942
+Epoch 20/20
+
+Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
+60000/60000 [==============================] - 9s 151us/step - loss: 0.0930 - acc: 0.9580 - val_loss: 0.0193 - val_acc: 0.9939
+<keras.callbacks.History at 0x7f6fc2f0d160>
+
+2. result of model.evaluate (on test data)
+[0.019294623884861358, 0.9939]
+
+3. Strategy taken:
+
